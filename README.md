@@ -3,8 +3,9 @@ Following the instructions here: https://hub.docker.com/r/bitnami/laravel
 1. Create ~/User/Documents/GitHub/myapp
 2. Run in command line: cd /myapp
 2. Download and save https://raw.githubusercontent.com/bitnami/containers/main/bitnami/laravel/docker-compose.yml in active folder
-3. Run in command line: docker-compose up
-4. Once it's ready, access http://localhost:8000 where you will see Laravel documentation.
+3. Open docker-compose.yml and add a database password for production purposes and double-check all other config settings before the next step.
+4. Run in command line: docker-compose up
+5. Once it's ready, access http://localhost:8000 where you will see Laravel documentation.
 
 ## Install Composer Reqs For Breeze & Blade
 Following the instructions here: https://laravel.com/docs/10.x/starter-kits#breeze-and-blade
